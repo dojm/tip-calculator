@@ -8,6 +8,7 @@ label {
 
 input, select {
   width: 250px;
+  font-size: 1.5rem;
 }
 
 .calculator-container  {
@@ -19,12 +20,14 @@ input, select {
 button {
   background: #ee6f57;
   color: #fafafa;
+  margin-top: 10px;
 }
 
-.output {
+#output {
   background: #fafafa;
   padding: 2vw;
   border-radius: 10px;
+  display: none;
 }
 
 h1, h4 {
