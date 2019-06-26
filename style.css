@@ -1,0 +1,32 @@
+.row {
+  margin-bottom: 40px;
+}
+
+label {
+  color: #333;
+}
+
+input, select {
+  width: 250px;
+}
+
+.calculator  {
+  background: #e3e3e3;
+  padding: 5vw;
+  border-radius: 10px;
+}
+
+button {
+  background: #ee6f57;
+  color: #fafafa;
+}
+
+.output {
+  background: #fafafa;
+  padding: 2vw;
+  border-radius: 10px;
+}
+
+h1, h4 {
+  color: #ee6f57;
+} 
