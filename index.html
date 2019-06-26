@@ -12,26 +12,26 @@
   <div class="container">
     <div class="row">
       <div class="offset-by-three six columns">
-        <div class="calculator">
+        <div class="calculator-container">
           <h1>Tip Calculator</h1>
           <div class="row">
-            <form>
-              <label for="billAmount">Bill Amount</label>
-              <input type="number" id="billAmount">
-              <label for="tipPercentage">Tip Percentage </label>
-              <select id="tipPercentage">
-                  <option value="10%">Poor - 10%</option>
-                  <option value="12%">OK - 12.5%</option>
-                  <option value="15%" selected="selected">Good - 15%</option>
-                  <option value="20%">Very good - 20%</option>
-                  <option value="25%">Exceptional - 25%</option>
-                </select>
+            <form id="calculator">
+              <label for="bill-amount">Bill Amount</label>
+              <input type="number" id="bill-amount">
+              <label for="tip-percentage">Tip Percentage </label>
+              <select id="tip-percentage">
+                <option value="10%">Poor - 10%</option>
+                <option value="12%">OK - 12.5%</option>
+                <option value="15%" selected="selected">Good - 15%</option>
+                <option value="20%">Very good - 20%</option>
+                <option value="25%">Exceptional - 25%</option>
+              </select>
+              <button type="submit">Calculate tip!</button>
             </form>
-            <button type="submit">Calculate tip!</button>
           </div>
           <div class="row output">
             <h4>You should tip:</h4>
-            <input type="number" id="calculatedTip" readonly>
+            <input type="number" id="calculated-tip" readonly>
           </div>
         </div>
       </div>

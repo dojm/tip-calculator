@@ -1,4 +1,4 @@
-.row {
+.row:first-of-type {
   margin-bottom: 40px;
 }
 
@@ -10,9 +10,9 @@ input, select {
   width: 250px;
 }
 
-.calculator  {
+.calculator-container  {
   background: #e3e3e3;
-  padding: 5vw;
+  padding: 3vw;
   border-radius: 10px;
 }
 
