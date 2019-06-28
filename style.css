@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .row:first-of-type {
   margin-bottom: 40px;
 }
@@ -6,15 +10,31 @@ label {
   color: #333;
 }
 
-input, select {
-  width: 250px;
-  font-size: 1.5rem;
+span {
+  position: relative;
+}
+
+span:after {
+  position: absolute;
+  content: '$';
+  left: 10px;
+  top: -3px;
+
 }
 
 .calculator-container  {
   background: #e3e3e3;
   padding: 3vw;
   border-radius: 10px;
+}
+
+.calculator-container input {
+  padding-left: 23px;
+}
+
+input, select {
+  width: 100%;
+  font-size: 1.5rem;
 }
 
 button {
